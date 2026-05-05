@@ -33,7 +33,7 @@ getGuestName();
 
 // ============ COUNTDOWN TIMER ============
 // Ganti tanggal di handap luyu sareng tanggal akad nikah
-const weddingDate = new Date('2026-08-15T08:00:00+07:00').getTime();
+const weddingDate = new Date('2026-06-01T08:00:00+07:00').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
