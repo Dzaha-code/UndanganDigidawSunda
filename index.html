@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="su">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan Jatukrami - Pernikahan [Nami Pengantén]">
+    <title>Undangan Jatukrami | [Nami Pengantén]</title>
+    
+    <!-- Google Fonts: Cormorant Garamond (display) & Cardo (body) - elegant & traditional feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Cardo:ital,wght@0,400;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ COVER / OPENING ============ -->
+    <section class="cover" id="cover">
+        <div class="batik-overlay"></div>
+        <div class="cover-content">
+            <p class="cover-label">Undangan Jatukrami</p>
+            <h1 class="cover-names">
+                <span class="name-line">Wangi</span>
+                <span class="ampersand">&amp;</span>
+                <span class="name-line">Galih</span>
+            </h1>
+            <div class="cover-divider">
+                <span class="divider-ornament">❦</span>
+            </div>
+            <p class="cover-date">Saptu, 15 Agustus 2026</p>
+            <p class="cover-greeting" id="guestGreeting">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+            <button class="cover-button" id="openInvitation">
+                <span>Buka Undangan</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- ============ MAIN CONTENT (hidden until cover opened) ============ -->
+    <main class="main-content" id="mainContent">
+
+        <!-- ============ BISMILLAH / OPENING QUOTE ============ -->
+        <section class="section bismillah-section">
+            <div class="ornament-top">
+                <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10,20 Q50,5 100,20 T190,20" stroke="currentColor" fill="none" stroke-width="1"/>
+                    <circle cx="100" cy="20" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+            <p class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+            <p class="quote-text">
+                "Sareng di antara tanda-tanda kakawasaan-Na nyaéta Mantenna nyiptakeun pikeun anjeun pasangan ti jinis anjeun sorangan, supados anjeun cenderung sareng tengtrem ka anjeunna, sareng dijantenkeun di antara anjeun rasa cinta sareng kanyaah."
+            </p>
+            <p class="quote-source">— Q.S. Ar-Rum: 21</p>
+        </section>
+
+        <!-- ============ MEMPELAI / PENGANTÉN ============ -->
+        <section class="section couple-section" id="couple">
+            <p class="section-label">Wilujeng Sumping</p>
+            <h2 class="section-title">Calon Pangantén</h2>
+            <p class="section-subtitle">Kalayan rahmat Allah SWT, kami badé ngalaksanakeun walimatul 'urs putra-putri kami:</p>
+            
+            <div class="couple-grid">
+                <div class="person-card">
+                    <div class="person-photo">
+                        <div class="photo-placeholder">
+                            <span>Poto Pangantén Wanita</span>
+                        </div>
+                    </div>
+                    <h3 class="person-name">Wangi Nurkhalisa</h3>
+                    <p class="person-title">S.Pd.</p>
+                    <p class="person-parents">Putri ti<br><strong>Bpk. H. Asep Saepudin</strong><br>&amp;<br><strong>Ibu Hj. Ratna Komala</strong></p>
+                </div>
+
+                <div class="couple-divider">
+                    <span class="couple-amp">&amp;</span>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-photo">
+                        <div class="photo-placeholder">
+                            <span>Poto Pangantén Pria</span>
+                        </div>
+                    </div>
+                    <h3 class="person-name">Galih Pratama</h3>
+                    <p class="person-title">S.T.</p>
+                    <p class="person-parents">Putra ti<br><strong>Bpk. H. Dadang Suherman</strong><br>&amp;<br><strong>Ibu Hj. Siti Aminah</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ COUNTDOWN ============ -->
+        <section class="section countdown-section">
+            <p class="section-label">Ngitung Mundur</p>
+            <h2 class="section-title">Nuju Dinten Bagja</h2>
+            <div class="countdown-grid" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">Dinten</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">Jam</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">Menit</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">Detik</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ACARA / EVENT ============ -->
+        <section class="section event-section" id="event">
+            <p class="section-label">Runtuyan Acara</p>
+            <h2 class="section-title">Waktos &amp; Tempat</h2>
+            
+            <div class="event-grid">
+                <div class="event-card">
+                    <div class="event-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="event-title">Akad Nikah</h3>
+                    <p class="event-date">Saptu, 15 Agustus 2026</p>
+                    <p class="event-time">08.00 - 10.00 WIB</p>
+                    <p class="event-location">Masjid Agung Al-Ukhuwwah<br>Jl. Wastukancana No. 27<br>Bandung, Jawa Barat</p>
+                </div>
+
+                <div class="event-card event-card-featured">
+                    <div class="event-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="event-title">Walimatul 'Urs</h3>
+                    <p class="event-date">Saptu, 15 Agustus 2026</p>
+                    <p class="event-time">11.00 - 14.00 WIB</p>
+                    <p class="event-location">Gedung Sasana Budaya Ganesha<br>Jl. Tamansari No. 73<br>Bandung, Jawa Barat</p>
+                </div>
+            </div>
+
+            <div class="event-actions">
+                <a href="https://maps.google.com/?q=Sasana+Budaya+Ganesha+Bandung" target="_blank" rel="noopener" class="btn btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>Pidueung Lokasi</span>
+                </a>
+                <button class="btn btn-secondary" id="addToCalendar">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                    </svg>
+                    <span>Save the Date</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- ============ MAPS ============ -->
+        <section class="section maps-section">
+            <p class="section-label">Lokasi</p>
+            <h2 class="section-title">Peta Tempat Acara</h2>
+            <div class="maps-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8!2d107.6!3d-6.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnMDAuMCJTIDEwN8KwMzYnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- ============ RSVP ============ -->
+        <section class="section rsvp-section" id="rsvp">
+            <p class="section-label">Konfirmasi Kahadiran</p>
+            <h2 class="section-title">RSVP</h2>
+            <p class="section-subtitle">Kanggo ngabantosan persiapan, mangga konfirmasi kahadiran sateuacan tanggal 10 Agustus 2026.</p>
+            
+            <form class="rsvp-form" id="rsvpForm">
+                <div class="form-group">
+                    <label for="rsvpName">Nami Lengkep</label>
+                    <input type="text" id="rsvpName" name="name" required placeholder="Lebetkeun nami anjeun">
+                </div>
+                
+                <div class="form-group">
+                    <label for="rsvpAttendance">Kahadiran</label>
+                    <select id="rsvpAttendance" name="attendance" required>
+                        <option value="">— Pilih —</option>
+                        <option value="hadir">Insya Allah Hadir</option>
+                        <option value="ragu">Masih Disangsikeun</option>
+                        <option value="tidak">Teu Tiasa Hadir</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="rsvpGuests">Jumlah Tamu</label>
+                    <select id="rsvpGuests" name="guests">
+                        <option value="1">1 Urang</option>
+                        <option value="2">2 Urang</option>
+                        <option value="3">3 Urang</option>
+                        <option value="4">4 Urang</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-full">
+                    <span>Kintunkeun Konfirmasi</span>
+                </button>
+            </form>
+        </section>
+
+        <!-- ============ GUEST BOOK / UCAPAN ============ -->
+        <section class="section guestbook-section" id="guestbook">
+            <p class="section-label">Buku Tamu</p>
+            <h2 class="section-title">Ucapan &amp; Du'a</h2>
+            <p class="section-subtitle">Mangga kintunkeun ucapan sareng du'a kanggo calon pangantén.</p>
+            
+            <form class="guestbook-form" id="guestbookForm">
+                <div class="form-group">
+                    <input type="text" id="gbName" name="name" required placeholder="Nami anjeun">
+                </div>
+                <div class="form-group">
+                    <textarea id="gbMessage" name="message" required rows="4" placeholder="Tuliskeun ucapan sareng du'a..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <span>Kintunkeun Ucapan</span>
+                </button>
+            </form>
+            
+            <div class="messages-list" id="messagesList">
+                <!-- Pesan tamu akan tampil di sini secara dinamis -->
+                <div class="message-item">
+                    <div class="message-header">
+                        <strong>Asep Permana</strong>
+                        <span class="message-time">2 jam ka pengker</span>
+                    </div>
+                    <p class="message-text">Mugia janten kulawarga sakinah, mawaddah, warahmah. Barakallahu lakuma!</p>
+                </div>
+                <div class="message-item">
+                    <div class="message-header">
+                        <strong>Neng Lina</strong>
+                        <span class="message-time">5 jam ka pengker</span>
+                    </div>
+                    <p class="message-text">Wilujeng nya! Mugia langgeng dugi ka surga.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CLOSING ============ -->
+        <section class="section closing-section">
+            <div class="ornament-top">
+                <svg viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10,20 Q50,5 100,20 T190,20" stroke="currentColor" fill="none" stroke-width="1"/>
+                    <circle cx="100" cy="20" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+            <p class="closing-text">
+                Mangrupa kabingahan sareng kahormatan kanggo kami upami Bapak/Ibu/Saudara/i kersa rawuh sareng masihan du'a restu ka calon pangantén.
+            </p>
+            <p class="closing-thanks">Hatur nuhun.</p>
+            <p class="closing-signature">Wassalamu'alaikum Wr. Wb.</p>
+            <h3 class="closing-names">Wangi &amp; Galih</h3>
+            <p class="closing-families">sareng kulawarga</p>
+        </section>
+
+        <!-- ============ FOOTER ============ -->
+        <footer class="footer">
+            <p>Made with ❤️ — © 2026</p>
+        </footer>
+    </main>
+
+    <!-- ============ MUSIC TOGGLE (optional) ============ -->
+    <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+        <svg class="music-icon-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18V5l12-2v13"/>
+            <circle cx="6" cy="18" r="3"/>
+            <circle cx="18" cy="16" r="3"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
